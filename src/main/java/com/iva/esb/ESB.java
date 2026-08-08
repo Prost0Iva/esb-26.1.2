@@ -1,5 +1,7 @@
 package com.iva.esb;
 
+import com.iva.esb.block.ESBBlocks;
+import com.iva.esb.creativemodetab.ESBCreativeModeTab;
 import com.iva.esb.item.ESBItems;
 import org.slf4j.Logger;
 
@@ -45,7 +47,9 @@ public class ESB {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ESBCreativeModeTab.register(modEventBus);
         ESBItems.register(modEventBus);
+        ESBBlocks.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
@@ -61,10 +65,10 @@ public class ESB {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        /*if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ESBItems.CHARGED_COPPER_INGOT);
             event.accept(ESBItems.ICE_CRYSTAL);
-        }
+        }*/
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

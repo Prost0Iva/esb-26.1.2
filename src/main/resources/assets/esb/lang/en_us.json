@@ -1,4 +1,9 @@
 {
+  "creativetab.esb.ingredients": "ESB: Ingredients",
+  "creativetab.esb.blocks": "ESB: Blocks",
+
   "item.esb.charged_copper_ingot": "Charged Copper Ingot",
-  "item.esb.ice_crystal": "Ice Crystal"
+  "item.esb.ice_crystal": "Ice Crystal",
+
+  "block.esb.live_spruce_planks": "Live Spruce Planks"
 }
