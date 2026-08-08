@@ -1,0 +1,13 @@
+{
+  "itemGroup.esb": "Example Mod Tab",
+  "block.esb.example_block": "Example Block",
+  "item.esb.example_item": "Example Item",
+
+  "esb.configuration.title": "ESB Configs",
+  "esb.configuration.section.esb.common.toml": "ESB Configs",
+  "esb.configuration.section.esb.common.toml.title": "ESB Configs",
+  "esb.configuration.items": "Item List",
+  "esb.configuration.logDirtBlock": "Log Dirt Block",
+  "esb.configuration.magicNumberIntroduction": "Magic Number Text",
+  "esb.configuration.magicNumber": "Magic Number"
+}
