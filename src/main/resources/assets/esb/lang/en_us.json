@@ -1,9 +1,12 @@
 {
   "creativetab.esb.ingredients": "ESB: Ingredients",
   "creativetab.esb.blocks": "ESB: Blocks",
+  "creativetab.esb.weapons": "ESB: Weapons & Tools",
 
   "item.esb.charged_copper_ingot": "Charged Copper Ingot",
   "item.esb.ice_crystal": "Ice Crystal",
+  "item.esb.charged_copper_sword": "Charged Copper Sword",
+  "item.esb.spruce_cleaver": "Spruce Cleaver",
 
   "block.esb.live_spruce_planks": "Live Spruce Planks"
 }

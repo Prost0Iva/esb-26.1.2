@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "esb:item/charged_copper_sword_inventory"
+  }
+}

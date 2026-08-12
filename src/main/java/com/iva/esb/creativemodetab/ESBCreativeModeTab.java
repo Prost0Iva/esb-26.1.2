@@ -33,6 +33,15 @@ public class ESBCreativeModeTab {
             }))
             .build());
 
+    public static final Supplier<CreativeModeTab> ESB_WEAPONS = CREATIVE_MODE_TABS.register("esb_weapons", () -> CreativeModeTab.builder()
+            .icon(() -> new ItemStack(ESBItems.CHARGED_COPPER_SWORD.get()))
+            .title(Component.translatable("creativetab.esb.weapons"))
+            .displayItems(((itemDisplayParameters, output) -> {
+                output.accept(ESBItems.CHARGED_COPPER_SWORD);
+                output.accept(ESBItems.SPRUCE_CLEAVER);
+            }))
+            .build());
+
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
